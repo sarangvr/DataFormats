@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.org.dataformat</groupId>
+  <artifactId>DataFormat</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>DataFormat</name>
+  <description>Convertion Basics</description>
+  
+  <dependencies>
+  		<!-- JAXB -->
+	  	<dependency>
+	  		<groupId>javax.xml.bind</groupId>
+		    <artifactId>jaxb-api</artifactId>
+		    <version>2.3.1</version>
+	  	</dependency>
+	  		
+	  	<dependency>
+	  		<groupId>org.glassfish.jaxb</groupId>
+		    <artifactId>jaxb-runtime</artifactId>
+		    <version>2.3.2</version>
+	  	</dependency>
+  		<!-- JAXB close -->
+  		
+  		<!-- CSV -->
+  		<dependency>
+	  		<groupId>com.opencsv</groupId>
+	  		<artifactId>opencsv</artifactId>
+	  		<version>4.1</version>
+  		</dependency>
+  		<!-- CSV close-->
+  		
+  		<!-- JSON -->
+  		<dependency>
+	  		<groupId>com.google.code.gson</groupId>
+	  		<artifactId>gson</artifactId>
+	  		<version>2.6.2</version>
+  		</dependency>
+  		
+  		<dependency>
+	  		<groupId>org.json</groupId>
+	  		<artifactId>json</artifactId>
+	  		<version>20180130</version>
+  		</dependency>
+  		<!-- JSON close -->
+  		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+  		
+  </dependencies>
+  
+  <properties>
+   <maven.compiler.source>14</maven.compiler.source>
+   <maven.compiler.target>14</maven.compiler.target>
+</properties>
+
+</project>
